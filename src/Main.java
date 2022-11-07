@@ -94,5 +94,16 @@ public class Main {
 
         var differenceBoxersWeightRmd = (secondBoxerWeight > firstBoxerWeight) ? secondBoxerWeight % firstBoxerWeight : firstBoxerWeight % secondBoxerWeight;
         System.out.println("Разница между весами боксеров " + differenceBoxersWeightRmd + " кг.");
+
+        // Задание 8
+        var totalHours = 640;
+        var hoursPerDay = 8;
+
+        var totalEmployees = totalHours / hoursPerDay;
+        System.out.println("Всего работников в компании – " + totalEmployees + " человек");
+
+        var newTotalEmployees = totalEmployees + 94;
+        var newTotalHours = newTotalEmployees * hoursPerDay;
+        System.out.println("Если в компании работает " + newTotalEmployees + " человек, то всего " + newTotalHours + " час(а/ов) работы может быть поделено между сотрудниками");
     }
 }
