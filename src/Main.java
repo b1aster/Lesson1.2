@@ -95,6 +95,9 @@ public class Main {
         var differenceBoxersWeightRmd = (secondBoxerWeight > firstBoxerWeight) ? secondBoxerWeight % firstBoxerWeight : firstBoxerWeight % secondBoxerWeight;
         System.out.println("Разница между весами боксеров " + differenceBoxersWeightRmd + " кг.");
 
+        // Разделитель
+        System.out.println();
+
         // Задание 8
         var totalHours = 640;
         var hoursPerDay = 8;
