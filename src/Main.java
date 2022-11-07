@@ -71,5 +71,21 @@ public class Main {
 
         frog += 4;
         System.out.println(frog);
+
+        // Разделитель
+        System.out.println();
+
+        // Задание 6
+        var firstBoxerWeight = 78.2f;
+        var secondBoxerWeight = 82.7f;
+
+        var totalBoxersWeight = firstBoxerWeight + secondBoxerWeight;
+        System.out.println("Общий вес боксеров " + totalBoxersWeight + " кг.");
+
+        var differenceBoxersWeight = (secondBoxerWeight > firstBoxerWeight) ? secondBoxerWeight % firstBoxerWeight : firstBoxerWeight % secondBoxerWeight;
+        System.out.println("Разница между весами боксеров " + differenceBoxersWeight + " кг.");
+
+        // Разделитель
+        System.out.println();
     }
 }
