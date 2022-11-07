@@ -23,5 +23,24 @@ public class Main {
 
         paper += 4;
         System.out.println(paper);
+
+        // Разделитель
+        System.out.println();
+
+        // Задание 3
+        dog -= 3.5f;
+        System.out.println(dog);
+
+        // Из условия задачи неизвестно требуется ли уменьшить значение с преобразованием типа
+        /*
+            var newDog = dog - 3.5f;
+            System.out.println(newDog);
+         */
+
+        cat -= 1.6f;
+        System.out.println(cat);
+
+        paper -=  7639;
+        System.out.println(paper);
     }
 }
