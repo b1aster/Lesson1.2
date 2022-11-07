@@ -87,5 +87,12 @@ public class Main {
 
         // Разделитель
         System.out.println();
+
+        // Задание 7
+        var differenceBoxersWeightDiv = (secondBoxerWeight > firstBoxerWeight) ? secondBoxerWeight - firstBoxerWeight : firstBoxerWeight - secondBoxerWeight;
+        System.out.println("Разница между весами боксеров " + differenceBoxersWeightDiv + " кг.");
+
+        var differenceBoxersWeightRmd = (secondBoxerWeight > firstBoxerWeight) ? secondBoxerWeight % firstBoxerWeight : firstBoxerWeight % secondBoxerWeight;
+        System.out.println("Разница между весами боксеров " + differenceBoxersWeightRmd + " кг.");
     }
 }
