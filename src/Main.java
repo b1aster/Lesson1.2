@@ -55,5 +55,21 @@ public class Main {
 
         friend /= 7;
         System.out.println(friend);
+
+        // Разделитель
+        System.out.println();
+
+        // Задание 5
+        var frog = 3.5f;
+        System.out.println(frog);
+
+        frog *= 10;
+        System.out.println(frog);
+
+        frog /= 3.5f;
+        System.out.println(frog);
+
+        frog += 4;
+        System.out.println(frog);
     }
 }
